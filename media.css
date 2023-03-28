@@ -1,0 +1,489 @@
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 480px){
+  
+  
+  #header .brand a{
+        font-size: 20px;
+font-weight: 700 !important;  
+width: 120px !important;
+height: 20px !important;
+top: 15px;
+left: -85px;
+}
+
+#nav .nav{
+  margin-left: -90px;
+ }
+#nav .nav-bar{
+  display: flex;
+  width: 450px;
+  white-space: nowrap;
+  overflow-x: auto;
+  justify-content:flex-start;
+  align-items: center;
+  margin-left: 105px;
+}
+#para .para{
+  background-color: white;
+     margin-left: -90px;
+}
+#para .head{
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+}
+#para .pp{
+  font-size: 14px;
+ color: black;
+}
+/*  */
+#appt .appt{
+margin-left: -90px;
+margin-top: -90px ;
+
+}
+#appt input[type="box"]{
+width: 100%;
+font-size: 14px;
+border-radius: 3px;
+}
+#appt input[type="check"]{
+width: 100%;
+font-size: 14px;
+margin-top:5px;
+border-radius: 3px;
+
+}
+#appt .ad input[type="boxx"]{
+width: 100%;
+font-size: 14px;
+margin-top:5px;
+border-radius: 3px;
+
+}
+#appt button[type="btn"]{
+  margin-top: 5px;
+width: 100%;
+border-radius: 3px;
+
+}
+/*  */
+ /* start offer */
+ #offer .offer{
+  margin-left: -110px;
+  margin-top: -100px;
+ }
+ 
+ #offer .hb{
+  font-size: 25px;
+ }
+ 
+ #offer .row-card{
+  /* width: 100% !important; */
+ }
+ #offer p{
+  font-size: 14px;
+ }
+  #offer .col-1 img{
+      float: left;
+     width:80px ;
+     height: 80px;
+  }
+  #offer .col-1{
+      flex-basis: 58%;
+      font-size: 14px;
+padding-top: 5px;
+width: 500px !important;
+height: 150px;
+
+  }
+  #offer .rcp-1{
+    font-size: 14px;
+  }
+  #offer .col-2{
+flex-basis:58%; 
+width: 100% !important;
+   font-size: 14px;
+      margin-top: 11px;
+      margin-left: 0px;
+ height: 180px;
+ width: 530px !important;
+  }
+  #offer .rcp-2{
+    font-size: 14px;
+  }
+  #offer button{
+      width: 110px;
+      height: 40px;
+margin-top: 9px !important;
+font-size: 10px;
+  }
+/* end offer */
+
+
+/* start explore */
+#explore .explore{
+  display: flex;
+  margin-left: -110px;
+  margin-top: -20px;
+      }
+  
+      #explore .row-x-1{
+          width: 100%;
+          white-space: nowrap;
+          overflow-x: auto;
+          width: 500px;
+          margin-top: -10px;
+          margin-left: -10px;
+      }
+      .col img{
+          padding-top: 10px;
+          width: 130px;
+          height: 130px;
+      }
+      #explore .htp{
+          font-size: 25px;
+      }
+      #explore .ptp {
+          font-size: 14px;
+          letter-spacing: 1px;
+          
+      }
+       #explore  .col h3{
+          font-size: 15px;
+       }
+        #explore  .col p{
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
+     /* end explore */
+
+
+     #brows .brows{
+      /* display: flex;
+      margin-left: -100px; */
+      display: none;
+  }
+
+  #bann .bann{
+    display: none;
+ }
+ /* start month */
+ #month .month{
+  display: flex;
+}
+.head-month h1{
+  font-size: 21px;
+}
+#month .col-x img{
+  width: 140px;
+  height: 140px;
+  margin: 0px 3px;
+}
+#month .all-month{
+  margin-left: -90px;
+  margin-top: -90px;
+}
+#month .count-month{
+  font-size: 14px;
+}
+#month .row-month h3{
+  font-size: 15px;
+}
+#month .row-month{
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 550px;
+}
+ /* end month */
+
+
+ /*  */
+ #trip .trip{
+  display: none;
+ }
+ /*  */
+ 
+/* start disc */
+#disc .disc{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#disc .disc-all{
+  width: 300px;
+  height: 300px;
+}
+.box-all img{
+  float: right;
+width: 120px;
+height: 120px;
+}
+#disc .hhbt{
+  margin-left: -150px;
+  /* float: right; */
+}
+/* end disc */
+
+ #desti .desti{
+  display: none;
+ }
+ /*  */
+ #footer .footer{display: none;}
+ /*  */
+
+ /*  */
+ #part2 .part2{
+  margin-top: 5px;
+  width: 100% !important;
+ }
+ .link{
+  background-color: white;
+ }
+ .link p{
+  color: blue;
+ }
+ /*  */
+
+ /*  */
+ #part3 .part3{
+  width: 100% !important;
+  justify-content: center;
+  padding: 5px;
+  height: 150px !important;
+  width: 100% !important;
+flex-wrap: wrap;
+}
+#part3 .part-3{
+  /* width: 100% !important; */
+  width: fit-content !important;
+  height: 170px !important;
+  width: 600px;
+}
+/*  */
+#loads .loads{
+  display: none;
+}
+/*  */
+#log .log{
+  justify-content:  center !important;
+}
+#log .logs a{
+  margin-left: 0px;
+}
+
+#copy .copy{
+  justify-content: center !important;
+}
+#copy .copys{
+margin: 0px;  
+}
+
+}
+
+
+
+
+
+/* tab */
+@media screen and (min-width: 481px) and (max-width: 768px){
+  #header .brand a{
+    margin-left: 8px;
+    font-weight: 600 !important;  
+    width: 100px !important;
+    height: 5px !important;
+  }
+  /* nav */
+  #nav .nav{
+    margin-left: -90px;
+  }
+  #nav .nav-bar{
+    font-size: 13px;
+    font-weight: 100;
+  }
+  /* nav */
+  /* para */
+  #para .para{
+    background-color: white;
+       margin-left: -90px;
+}
+#para .head{
+    font-size: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+       margin-top: -60px;
+}
+#para .pp{
+    font-size: 15px;
+   color: black;
+}
+/* para */
+/* appt */
+#appt .appt{
+  margin-left: -90px;
+  margin-top: -130px;
+}
+#appt input[type="box"]{
+  width: 100% !important;
+  font-size: 18px;
+  border-radius: 3px;
+
+}
+#appt input[type="check"]{
+  width: 100%;
+  font-size: 18px;
+  margin-top:5px;
+  border-radius: 3px;
+
+}
+#appt .ad input[type="boxx"]{
+  width: 100%;
+  font-size: 18px;
+  margin-top:5px;
+  border-radius: 3px;
+
+}
+#appt button[type="btn"]{
+  width: 100%;
+  border-radius: 3px;
+margin-top: 6px;
+}
+/* appt */
+
+/* offer */
+#offer .offer{
+  margin-top: -90px;
+  margin-left: -100px;
+}
+#offer .hb{
+  font-size: 25px;
+}
+#offer .row-card{
+  display: flex !important;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100% !important;
+}
+#offer .col-1 img{
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+#offer .col-1{
+  margin-left: -10px;
+  width: 750px !important;
+padding: 10px;
+}
+#offer .col-1 h3{
+  padding-left: 150px;
+}
+#offer .rcp-1{
+  padding-left: 150px;
+}
+#offer .bti{
+margin-left: 60px;
+}
+#offer .col-2{
+  margin-left: -10px;
+  margin-top: 10px;
+  width: 750px !important;
+   padding: 5px;
+}
+#offer .col-2 h3{
+  padding-left: 150px;
+}
+.rcp-2{
+  padding-left: 150px;
+}
+#offer .bt{
+  margin-left: 140px;
+  }
+  #offer button{
+    background-color: white;
+    color: #0071c2;
+  }
+/* offer */
+
+/* explore */
+#explore .explore{
+  display: flex;
+  margin-left: -100px;
+}
+#explore .htp{
+  font-size: 22px;
+}
+#explore .row-x-1{
+width: 100%;  
+margin-left: -10px;
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 750px;
+}
+.col img{
+  width: 300px;
+  height: 250px;
+}
+/* explore */
+/*  */
+#brows .brows{
+  display: none;
+}
+/*  */
+
+/*  */
+#bann .bann{
+  display: none;
+}
+/*  */
+ /* start month */
+ #month .month{
+  display: flex;
+}
+.head-month h1{
+  font-size: 21px;
+}
+#month .col-x img{
+  width: 300px;
+  height: 250px;
+  margin: 0px 3px;
+}
+#month .all-month{
+  margin-left: -90px;
+  margin-top: -100px;
+}
+#month .count-month{
+  font-size: 14px;
+  margin-top: 20px;
+}
+#month .row-month h3{
+  font-size: 15px;
+}
+#month .row-month{
+  margin-top: 30px;
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 750px;
+}
+ /* end month */
+/* trip */
+#trip .trip{
+  margin-left: 10px;
+}
+#trip .big-x-p{
+  display: flex !important;
+  width: 300px !important;
+}
+/* trip */
+}
+
+/* small screen */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+}
+
+  /* laptop */
+  @media screen and (min-width: 1025px) and (max-width: 1400px){
+
+  }
