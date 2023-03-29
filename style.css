@@ -423,7 +423,7 @@ letter-spacing: 1px;
  font-size: 16px;
  padding-left: 10px;
  padding-top: 30px;
- background-image: url(./bg-c.jpeg);
+ background-image: url(.//img\ &\ icon/bg-c.jpeg);
  background-size: cover;
  box-shadow: 0px 0px 3px 0 black;
  color: white;
@@ -547,7 +547,7 @@ font-weight: bold;
 }
 
 #bann .f1-1{
-    background-image: url("./ma.webp");
+    background-image: url(".//img & icon/ma.webp");
     background-size: cover;
     width: 550px;
     height: 250px;
@@ -562,7 +562,7 @@ color: white;
     box-shadow: 0px 0px 4px  black;
 }
 #bann .f1-2{
-    background-image: url("./le.webp" );
+    background-image: url(".//img & icon/le.webp" );
     background-size: cover;
     width: 590px;
     height: 250px;
@@ -585,7 +585,7 @@ color: white;
     margin-left: 50px;
 }
 #bann .s1-1{
-    background-image: url("./re.webp");
+    background-image: url(".//img & icon/re.webp");
     background-size: cover;
     width: 380px;
     height: 250px;
@@ -599,7 +599,7 @@ color: white;
 color: white;
 }
 #bann .s1-2{
-    background-image: url("./new.webp");
+    background-image: url(".//img & icon/new.webp");
     background-size: cover;
     width: 380px;
     height: 250px;
@@ -614,7 +614,7 @@ color: white;
 color: white;
 }
 #bann .s1-3{
-    background-image: url("./bigm.webp");
+    background-image: url(".//img & icon/bigm.webp");
     background-size: cover;
     width: 380px;
     height: 250px;
@@ -765,7 +765,7 @@ padding-left: 10px;
     margin-top: 20px;
   }
   #trip .big-x-p{
-    background-image: url(./hov.webp);
+    background-image: url(./img\ &\ icon/hov.webp);
     background-size: cover;
     width: 500px;
     height: 350px;
@@ -781,7 +781,7 @@ padding-left: 10px;
     position: absolute;
 bottom: 0;
 left: 20px;
-padding-bottom: 40px;
+padding-bottom: 90px;
 color: white;
 font-weight: bold;
   }
@@ -825,7 +825,7 @@ font-weight: bold;
   }
   #disc .disc-all{
     display: flex;
-    background-image: url(./map.png);
+    background-image: url(.//img\ &\ icon/map.png);
     width: 1100px;
     height:190px;
  font-size: 16px;
