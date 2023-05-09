@@ -1,7 +1,8 @@
 /* mobile */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (min-width: 280px) and (max-width: 480px){
   
-  
+                        /* header start */
+                      
   #header .brand a{
         font-size: 20px;
 font-weight: 700 !important;  
@@ -10,7 +11,10 @@ height: 20px !important;
 top: 15px;
 left: -85px;
 }
+                        /* header end */
 
+                /* start navbar  */
+   
 #nav .nav{
   margin-left: -90px;
  }
@@ -23,6 +27,11 @@ left: -85px;
   align-items: center;
   margin-left: 105px;
 }
+                /* End navbar  */
+
+
+                  /*start para   */
+
 #para .para{
   background-color: white;
      margin-left: -90px;
@@ -38,7 +47,10 @@ left: -85px;
   font-size: 14px;
  color: black;
 }
-/*  */
+                /* end para  */
+
+               /* appt start */
+
 #appt .appt{
 margin-left: -90px;
 margin-top: -90px ;
@@ -69,8 +81,9 @@ width: 100%;
 border-radius: 3px;
 
 }
-/*  */
- /* start offer */
+               /* appt End */ 
+
+               /* start offer */
  #offer .offer{
   margin-left: -110px;
   margin-top: -100px;
@@ -80,8 +93,8 @@ border-radius: 3px;
   font-size: 25px;
  }
  
- #offer .row-card{
-  /* width: 100% !important; */
+ #offer .offer{
+    width: 100% !important;
  }
  #offer p{
   font-size: 14px;
@@ -120,10 +133,10 @@ width: 100% !important;
 margin-top: 9px !important;
 font-size: 10px;
   }
-/* end offer */
+                      /* end offer */
 
 
-/* start explore */
+                  /* start explore */
 #explore .explore{
   display: flex;
   margin-left: -110px;
@@ -158,19 +171,24 @@ font-size: 10px;
           font-size: 12px;
           letter-spacing: 1px;
         }
-     /* end explore */
+                   /* end explore */
 
+      /* start browser */
 
      #brows .brows{
       /* display: flex;
       margin-left: -100px; */
       display: none;
   }
+/* End browser */
+               /* start banner */
 
   #bann .bann{
     display: none;
  }
- /* start month */
+               /* End banner */
+
+             /* start month */
  #month .month{
   display: flex;
 }
@@ -197,16 +215,16 @@ font-size: 10px;
   overflow-x: auto;
   width: 550px;
 }
- /* end month */
+              /* end month */
 
 
- /*  */
+                   /* trip start */
  #trip .trip{
   display: none;
  }
- /*  */
+                   /* trip start */
  
-/* start disc */
+                   /* start disc */
 #disc .disc{
   margin-left: 10px;
   margin-top: 10px;
@@ -224,8 +242,9 @@ height: 120px;
   margin-left: -150px;
   /* float: right; */
 }
-/* end disc */
+                           /* end disc */
 
+           /* start desti */
  #desti .desti{
   display: none;
  }
@@ -244,7 +263,8 @@ height: 120px;
  .link p{
   color: blue;
  }
- /*  */
+           /* End desti */
+
 
  /*  */
  #part3 .part3{
@@ -261,10 +281,14 @@ flex-wrap: wrap;
   height: 170px !important;
   width: 600px;
 }
-/*  */
+/* end part3 */
+
+                             /* loads start */
 #loads .loads{
   display: none;
 }
+                             /* loads end */
+
 /*  */
 #log .log{
   justify-content:  center !important;
@@ -288,13 +312,17 @@ margin: 0px;
 
 /* tab */
 @media screen and (min-width: 481px) and (max-width: 768px){
+  
+                         /* header start */
   #header .brand a{
     margin-left: 8px;
     font-weight: 600 !important;  
     width: 100px !important;
     height: 5px !important;
   }
-  /* nav */
+                         /* header end */
+
+                 /*  start nav */
   #nav .nav{
     margin-left: -90px;
   }
@@ -302,8 +330,8 @@ margin: 0px;
     font-size: 13px;
     font-weight: 100;
   }
-  /* nav */
-  /* para */
+               /*  end nav */
+            /* start para */
   #para .para{
     background-color: white;
        margin-left: -90px;
@@ -319,8 +347,9 @@ margin: 0px;
     font-size: 15px;
    color: black;
 }
-/* para */
-/* appt */
+             /*  end para */
+
+           /*  start appt */
 #appt .appt{
   margin-left: -90px;
   margin-top: -130px;
@@ -350,9 +379,9 @@ margin: 0px;
   border-radius: 3px;
 margin-top: 6px;
 }
-/* appt */
+                       /* start appt */
 
-/* offer */
+           /*  start offer */
 #offer .offer{
   margin-top: -90px;
   margin-left: -100px;
@@ -404,9 +433,9 @@ margin-left: 60px;
     background-color: white;
     color: #0071c2;
   }
-/* offer */
+              /*  end offer */
 
-/* explore */
+                /*  start explore */
 #explore .explore{
   display: flex;
   margin-left: -100px;
@@ -425,19 +454,21 @@ margin-left: -10px;
   width: 300px;
   height: 250px;
 }
-/* explore */
-/*  */
+                 /*  End explore */
+
+                 /* start browser */
 #brows .brows{
   display: none;
 }
-/*  */
+                 /* start browser */
 
-/*  */
+     /* start ban  */
 #bann .bann{
   display: none;
 }
-/*  */
- /* start month */
+      /* end ban */
+
+              /* start month */
  #month .month{
   display: flex;
 }
@@ -466,16 +497,78 @@ margin-left: -10px;
   overflow-x: auto;
   width: 750px;
 }
- /* end month */
-/* trip */
+                /* end month */
+                     /* start trip */
 #trip .trip{
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  display: none;
 }
-#trip .big-x-p{
+/* #trip .big-x-p{
   display: flex !important;
   width: 300px !important;
+} */
+                        /* end trip */
+
+                                 /* disc start */
+#disc .disc-all{
+margin-left: -80px;
+  width: 700px;
 }
-/* trip */
+                      /* disc end */
+
+                       /* start desti */
+#desti .all-desti{
+margin-left: -80px;
+}
+
+/* desti end */
+
+/* start footer */
+#footer .all-footer {
+margin-left: -280px;
+}
+    /* part-2 start */
+.part-2 {
+  margin-left: -280px;
+
+} /*end */
+
+/* start part-3 */
+.part3-x a{
+  font-size: 11px;
+  margin-left: -18px;
+}
+/*end */
+            /* end footer */
+
+            /* start loads */
+#loads .row-load{
+margin-left: -30px;
+font-size: 11px;
+
+}
+
+ #loads .col-sec .col-s{
+     margin-left: 25px;
+     /* padding: 4px; */
+     /* font-size: 14px; */
+ }
+ #loads .col-th .col-t{
+     margin-left: 25px;
+     /* padding: 4px; */
+     /* font-size: 14px; */
+ }
+ #loads .col-for .col-fr{
+     margin-left:25px;
+     /* padding: 4px; */
+     /* font-size: 14px; */
+ }
+ #loads .col-fif .col-fi{
+  margin-left: 25px;
+  /* padding: 4px; */
+  /* font-size: 14px; */
+}
+                         /* end loads */
 }
 
 /* small screen */
